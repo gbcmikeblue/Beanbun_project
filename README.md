@@ -8,4 +8,4 @@
   
 - [Beanbun 文档](http://www.beanbun.org)
 
-
+- [插件 beanbun-parser github地址](https://github.com/kiddyuchina/beanbun-parser)

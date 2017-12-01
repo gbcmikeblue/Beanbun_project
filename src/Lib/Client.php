@@ -172,10 +172,10 @@ class Client
     /**
      * up.
      * @param string $key
-     * @param CallBack $callback
+     * @param $callback
      * @throws \Exception
      */
-    public function up($key, CallBack $callback)
+    public function up($key, $callback)
     {
         do {
             $old_value = $this->$key;
@@ -185,8 +185,9 @@ class Client
 
     /**
      * Add.
-     * @param string $key
-     * @throws \Exception
+     * @param $key
+     * @param $value
+     * @return mixed
      */
     public function add($key, $value)
     {
